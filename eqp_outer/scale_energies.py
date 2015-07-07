@@ -8,7 +8,8 @@ I have been using this file to evaluate the molecular sub block
 '''
 
 inputFile = open('sigma_hp.log','r')
-efermi =  7.364815156
+#efermi =  7.364815156
+efermi = float(input('What is the DFT Fermi level? ')) 
 
 for i in range(16):
     inputFile.readline()
